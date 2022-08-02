@@ -11,13 +11,13 @@ export default function App() {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <Link to="/about">About (SPA Links)</Link>
           </li>
           <li>
-            <Link to="/topics">Topics</Link>
+            <Link to="/topics">Topics (SPA Links)</Link>
           </li>
           <li>
-            <NextLink href="/settings">Settings (SSR)</NextLink>
+            <NextLink href="/settings">Settings (Server Side Rendered)</NextLink>
           </li>
         </ul>
 

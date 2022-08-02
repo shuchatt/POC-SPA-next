@@ -11,5 +11,5 @@ export default function App(props: { message: string }) {
 }
 
 export const getServerSideProps = () => {
-  return { props: { message: 'This page is rendered on the server!' } };
+  return { props: { message: 'SSR Page' } };
 };
